@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Android Basic 2</string>
+    <string name="go_button1_title">Go to Example1 Activity</string>
+    <string name="go_button2_title">Go to Example2 Activity</string>
+    <string name="go_button3_title">Go to Example3 Activity</string>
+    <string name="go_button4_title">Go to Example4 Activity</string>
+    <string name="go_button5_title">Go to Example5 Activity</string>
+    <string name="click_me">Click me</string>
+    <string name="large_text">Large Text</string>
+    <string name="medium_text">Medium Text</string>
+    <string name="activity_2">Activity 2</string>
+    <string name="activity_3">Activity 3</string>
+    <string name="activity_4">Activity 4</string>
+    <string name="activity_5">Activity 5</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hello Android</string>
+    <string name="search">Search</string>
+    <string name="share">Share</string>
+    <string name="setting">Setting</string>
+    <string name="button">New Button</string>
+</resources>
