@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Xử Lý Sự Kiện</string>
+    <string name="onclick">Onclick</string>
+    <string name="inline_anonymous_listener">Inline anonymous listener</string>
+    <string name="listener_in_variable">Listener in variable</string>
+    <string name="explicit_listener_class">Explicit listener class</string>
+    <string name="view_subclassing">View Subclassing</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="activity_is_listener">Activity is listener</string>
+    <string name="nhap_so_a">Nhập số a</string>
+    <string name="nhap_so_b">Nhập số b</string>
+    <string name="tong_2_sp">Tổng 2 Số</string>
+    <string name="ket_qua">Kết quả</string>
+    <string name="nam_am_lich">Năm Âm Lịch</string>
+    <string name="doi_nam_am">Đổi Năm Âm</string>
+    <string name="nhap_nam_duong_lich">Nhập Năm Dương Lịch</string>
+    <string name="ten">Tên</string>
+    <string name="chieu_cao">Chiều Cao</string>
+    <string name="can_nang">Cân Nặng</string>
+    <string name="chuan_doan">Chuẩn Đoán</string>
+    <string name="chi_so_bmi">Chỉ Số BMI</string>
+    <string name="tinh_bmi">Tính BMI</string>
+    <string name="do_c">Độ C</string>
+    <string name="do_f">Độ F</string>
+    <string name="chuyen_do_c">Chuyển Độ C</string>
+    <string name="chuyen_do_f">Chuyển Độ F</string>
+    <string name="xoa">Xóa</string>
+    <string name="nhap_a">Nhập a</string>
+    <string name="nhap_b">Nhập b</string>
+    <string name="tiep_tuc">Tiếp Tục</string>
+    <string name="giai_ptb2">Giải PTB2</string>
+    <string name="thoat">Thoát</string>
+    <string name="nhap_c">Nhập c</string>
+    <string name="click_me">Click Me</string>
+</resources>

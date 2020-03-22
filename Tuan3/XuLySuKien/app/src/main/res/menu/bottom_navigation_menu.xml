@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_Listener_in_variable"
+        android:icon="@drawable/ic_looks_4_black_24dp"
+        android:title="@string/listener_in_variable" />
+    <item
+        android:id="@+id/navigation_Explicit_listener_class"
+        android:icon="@drawable/ic_looks_5_black_24dp"
+        android:title="@string/explicit_listener_class" />
+    <item
+        android:id="@+id/navigation_View_Subclassing"
+        android:icon="@drawable/ic_looks_6_black_24dp"
+        android:title="@string/view_subclassing" />
+</menu>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.OnclickFragment">
+
+
+    <EditText
+        android:id="@+id/editsoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/nhap_so_a"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtkq"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <EditText
+        android:id="@+id/editsob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/nhap_so_b"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editsoa"
+        app:layout_constraintVertical_bias="0.081" />
+
+    <Button
+        android:id="@+id/btn_tong2so"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tong_2_sp"
+        android:onClick="tinh_tong2so"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editsob"
+        app:layout_constraintVertical_bias="0.109"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/txtkq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ket_qua"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.272" />
+</androidx.constraintlayout.widget.ConstraintLayout>

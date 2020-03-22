@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ExplicitListenerClassFragment">
+
+    <EditText
+        android:id="@+id/edita_ELC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nhap_a"
+        android:inputType="numberSigned"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtkq_ELC"
+        app:layout_constraintVertical_bias="0.112"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/editb_ELC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nhap_b"
+        android:inputType="numberSigned"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edita_ELC"
+        app:layout_constraintVertical_bias="0.056"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/editc_ELC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nhap_c"
+        android:inputType="numberSigned"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editb_ELC"
+        app:layout_constraintVertical_bias="0.07"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/txtkq_ELC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ket_qua"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.137" />
+
+    <Button
+        android:id="@+id/btnTiepTuc_ELC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tiep_tuc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editc_ELC"
+        app:layout_constraintVertical_bias="0.239" />
+
+    <Button
+        android:id="@+id/btnGiai_ELC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/giai_ptb2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toEndOf="@+id/btnTiepTuc_ELC"
+        app:layout_constraintTop_toBottomOf="@+id/editc_ELC"
+        app:layout_constraintVertical_bias="0.239" />
+
+    <Button
+        android:id="@+id/btnThoat_ELC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/thoat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.719"
+        app:layout_constraintStart_toEndOf="@+id/btnGiai_ELC"
+        app:layout_constraintTop_toBottomOf="@+id/editc_ELC"
+        app:layout_constraintVertical_bias="0.239" />
+</androidx.constraintlayout.widget.ConstraintLayout>

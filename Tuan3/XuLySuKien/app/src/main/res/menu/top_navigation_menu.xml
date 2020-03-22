@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_Onclick"
+        android:icon="@drawable/ic_looks_one_black_24dp"
+        android:title="@string/onclick" />
+    <item
+        android:id="@+id/navigation_Inline_anonymous_listener"
+        android:icon="@drawable/ic_looks_two_black_24dp"
+        android:title="@string/inline_anonymous_listener" />
+    <item
+        android:id="@+id/navigation_Activity_is_listener"
+        android:icon="@drawable/ic_looks_3_black_24dp"
+        android:title="@string/activity_is_listener" />
+</menu>

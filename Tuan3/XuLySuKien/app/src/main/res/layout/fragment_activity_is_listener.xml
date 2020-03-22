@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ActivityIsListenerFragment">
+
+    <EditText
+        android:id="@+id/editTen_AIL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/ten"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.129"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/editChieuCao_AIL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/chieu_cao"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTen_AIL"
+        app:layout_constraintVertical_bias="0.052"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/editCanNang_AIL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/can_nang"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editChieuCao_AIL"
+        app:layout_constraintVertical_bias="0.062"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/editChuanDoan_AIL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/chuan_doan"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editCanNang_AIL"
+        app:layout_constraintVertical_bias="0.085"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/editChiSoBMI_AIL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/chi_so_bmi"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editChuanDoan_AIL"
+        app:layout_constraintVertical_bias="0.112"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/btnTinhBMI_AIL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tinh_bmi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editChiSoBMI_AIL"
+        app:layout_constraintVertical_bias="0.154" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

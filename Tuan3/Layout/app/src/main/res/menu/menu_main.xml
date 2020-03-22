@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_RelativeLayoutActivity"
+        android:icon="@drawable/ic_personal_video_white_24dp"
+        android:title="Relative Layout"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_LinearLayoutActivity"
+        android:title="Linear Layout">
+        <menu>
+            <item
+                android:id="@+id/menu_LinearLayoutActivity_Vertical"
+                android:title="Vertical" />
+            <item
+                android:id="@+id/menu_LinearLayoutActivity_Horizontal"
+                android:title="Horizontal" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_TableLayoutActivity"
+        android:title="Table Layout" />
+    <item android:title="Grid Layout">
+        <menu>
+            <item
+                android:id="@+id/menu_GridLayoutActivity"
+                android:title="Grid Layout Basic" />
+            <item
+                android:id="@+id/menu_GridLayoutActivity_Example"
+                android:title="Grid Layout Example" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_FrameLayoutActivity"
+        android:title="Frame Layout" />
+</menu>
