@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:stretchColumns="*"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:background="@color/colorGreen"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_span="4"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="@string/title"
+            android:textColor="@color/colorWhite"
+            android:textSize="22sp" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/txtSoa"
+            android:layout_span="1"
+            android:fontFamily="monospace"
+            android:text="@string/a"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextSoa"
+            android:layout_span="3"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="numberDecimal"
+            tools:ignore="LabelFor" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/txtSob"
+            android:layout_span="1"
+            android:fontFamily="monospace"
+            android:text="@string/b"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextSob"
+            android:layout_span="3"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="numberDecimal"
+            tools:ignore="LabelFor" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btnCong"
+            android:layout_span="1"
+            android:fontFamily="monospace"
+            android:text="@string/cong"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/buttonTru"
+            android:layout_span="1"
+            android:fontFamily="monospace"
+            android:text="@string/tru"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/buttonNhan"
+            android:layout_span="1"
+            android:fontFamily="monospace"
+            android:text="@string/nhan"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/buttonChia"
+            android:layout_span="1"
+            android:fontFamily="monospace"
+            android:text="@string/chia"
+            tools:ignore="ButtonStyle" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:background="@color/colorGreen">
+
+        <TextView
+            android:id="@+id/txtKetQua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+            android:fontFamily="monospace"
+            android:text="@string/ket_qua"
+            android:textColor="@color/colorWhite"
+            android:textSize="30sp" />
+    </TableRow>
+
+</TableLayout>

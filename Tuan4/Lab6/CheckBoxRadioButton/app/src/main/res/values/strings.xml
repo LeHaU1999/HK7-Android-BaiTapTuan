@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CheckBox RadioButton</string>
+    <string name="title">Thông tin cá nhân</string>
+    <string name="he_ten">Họ tên:</string>
+    <string name="nhap_ten">Nhập tên</string>
+    <string name="cmnd">CMND:</string>
+    <string name="nhap_cmnd">Nhập CMND</string>
+    <string name="bang_cap">Bằng cấp</string>
+    <string name="trung_cap">Trung cấp</string>
+    <string name="cao_dang">Cao đẳng</string>
+    <string name="dai_hoc">Đại học</string>
+    <string name="so_thich">Sở thích</string>
+    <string name="doc_bao">Đọc báo</string>
+    <string name="doc_sach">Đọc sách</string>
+    <string name="doc_coding">Đọc Coding</string>
+    <string name="gui_thong_tin">Gửi thông tin</string>
+    <string name="khong_bat_buoc">Không bắt buộc</string>
+    <string name="thong_tin_bo_sung">Thông tin bổ sung</string>
+</resources>

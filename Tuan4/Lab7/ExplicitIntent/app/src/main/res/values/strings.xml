@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Explicit Intent</string>
+    <string name="this_is_main_activity">This is main Activity</string>
+    <string name="open_child_activity">Open Child Activity</string>
+    <string name="this_is_child_activity">This is Child Activity</string>
+    <string name="back_to_main_activity">Back to Main Activity</string>
+    <string name="learn_bundle">Learn Bundle</string>
+    <string name="ket_qua">Kết quả</string>
+    <string name="nhap_a">Nhập a</string>
+    <string name="nhap_b">Nhập b</string>
+    <string name="nhap_a_lbl">Nhập a:</string>
+    <string name="nhap_b_lbl">Nhập b:</string>
+    <string name="giai_phuong_trinh_bac_1">Giải phương trình bậc 1</string>
+    <string name="ket_qua_giai_phuong_trinh_bac_1">Kết quả giải phương trình bậc 1</string>
+    <string name="back">Back</string>
+    <string name="back_main">Back Main</string>
+    <string name="intent_result">Intent Result</string>
+    <string name="mo_activity_nhap_du_lieu">Mở Activity Nhập Dữ Liệu</string>
+    <string name="nhap_so_lbl">Nhập số:</string>
+    <string name="luu_binh_phuong">Lưu Bình Phương</string>
+    <string name="luu_so_goc">Lưu Số gốc</string>
+    <string name="input_data_title">Input Data Title</string>
+</resources>

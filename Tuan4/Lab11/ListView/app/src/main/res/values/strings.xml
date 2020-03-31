@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">List View</string>
+    <string name="selected_person_here">Selected person here</string>
+</resources>

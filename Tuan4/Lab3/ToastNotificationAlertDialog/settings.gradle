@@ -1,0 +1,2 @@
+rootProject.name='Toast Notification Alert Dialog'
+include ':app'

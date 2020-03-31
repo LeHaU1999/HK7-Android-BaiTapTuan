@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TextView EditText Button</string>
+    <string name="title">Cộng trừ nhân chia</string>
+    <string name="a">Số a:</string>
+    <string name="b">Số b:</string>
+    <string name="cong">+</string>
+    <string name="tru">-</string>
+    <string name="nhan">*</string>
+    <string name="chia">/</string>
+    <string name="ket_qua">Kết quả</string>
+</resources>
