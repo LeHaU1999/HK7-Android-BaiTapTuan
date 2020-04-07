@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Weather Service</string>
+    <string name="location">Location</string>
+    <string name="hanoi">Hanoi</string>
+    <string name="weather"><![CDATA[<Weather>]]></string>
+    <string name="how_is_the_weather_today">How is the Weather today?</string>
+</resources>
