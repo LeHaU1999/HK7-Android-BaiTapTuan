@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Content Provider</string>
+    <string name="show_all_contact">Show All Contact</string>
+    <string name="access_the_call_log">Access The Call Log</string>
+    <string name="access_media_store">Access Media Store</string>
+    <string name="access_bookmarks">Access Bookmarks</string>
+    <string name="back">Back</string>
+</resources>

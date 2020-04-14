@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Custom Content Provider</string>
+    <string name="name">Name</string>
+    <string name="grade">Grade</string>
+    <string name="add_name">Add Name</string>
+    <string name="retrive_student">Retrive Student</string>
+    <string name="custom_content_provider">Custom Content Provider</string>
+</resources>

@@ -1,4 +1,12 @@
-Lập Trình Thiết Bị Di Động - Android
-Tên: Lê HậU
-MSSV: 1731103085
-Lớp: 11DHPM
+
+# Lập Trình Cho Thiết Bị Di Động Android - GDU
+
+Họ và tên: **<u>Lê HậU</u>**
+
+Khóa: **<u>11</u>**
+
+Lớp: ***<u>11DHPM</u>***
+
+MSSV: ***<u>1731103085</u>***
+
+---
